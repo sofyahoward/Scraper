@@ -1,0 +1,40 @@
+{
+  "name": "scrape-kos",
+  "version": "1.0.0",
+  "description": "Scrape dailykos.com for news and run comments in mongo",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slsriehl/scrape-kos.git"
+  },
+  "keywords": [
+    "scrape",
+    "cheerio",
+    "mongo",
+    "node"
+  ],
+  "author": "Sarah Riehl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slsriehl/scrape-kos/issues"
+  },
+  "homepage": "https://github.com/slsriehl/scrape-kos#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
+    "jquery": "^3.1.1",
+    "mongodb": "^2.2.12",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0",
+    "winston": "^2.3.0"
+  }
+}
